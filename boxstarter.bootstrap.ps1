@@ -1,3 +1,13 @@
+Describe your Changes
+
+Updated boxstarter.bootstrap.ps1
+SUBMIT CHANGE REQUEST
+hannesbe / dotfiles-windows
+
+boxstarter.bootstrap.ps1
+Review your changes:
+Additions are highlighted in green. Deletions are crossed out.
+
 #####################
 # Windows Configuration
 
@@ -80,7 +90,7 @@ cinst wincommandpaste
 ##########
 # Sysadmin
 cinst sysinternals
-cinst ultravnc
+# cinst ultravnc
 # cinst teamviewer
 
 cinst nmap
@@ -161,3 +171,9 @@ apm install sync-settings
 #apm install atom-ternjs
 apm install zen
 #apm install atom-react-native-autocomplete
+apm install pastery
+Prose
+Prose
+About
+Developers
+Language
