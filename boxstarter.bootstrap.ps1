@@ -1,13 +1,3 @@
-Describe your Changes
-
-Updated boxstarter.bootstrap.ps1
-SUBMIT CHANGE REQUEST
-hannesbe / dotfiles-windows
-
-boxstarter.bootstrap.ps1
-Review your changes:
-Additions are highlighted in green. Deletions are crossed out.
-
 #####################
 # Windows Configuration
 
