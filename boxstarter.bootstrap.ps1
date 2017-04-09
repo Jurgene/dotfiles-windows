@@ -9,25 +9,34 @@ Update-ExecutionPolicy Unrestricted
 
 Disable-InternetExplorerESC
 
-#Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+
+##############
+# First things first
+
+cinst chocolatey-windowsupdate.extension
 
 #################
 # Windows Features
 
+cinst Microsoft-Windows-Subsystem-Linux --source windowsfeatures
 cinst TelnetClient -source windowsFeatures
 #cinst IIS-WebServerRole -source windowsfeatures
 #cinst IIS-HttpCompressionDynamic -source windowsfeatures
 #cinst IIS-ManagementScriptingTools -source windowsfeatures
 #cinst IIS-WindowsAuthentication -source windowsfeatures
 
+
 ##############
 # Development
 
-cinst PowerShell
 cinst DotNet3.5
 cinst DotNet4.0
 cinst DotNet4.5
 cinst DotNet4.5.1
+cinst python
+cinst php
+cinst composer
 cinst NuGet.CommandLine
 cinst vs2013SDK
 cinst ScriptCS
@@ -36,16 +45,15 @@ cinst javaruntime
 cinst java.jdk
 cinst githubforwindows
 cinst sourcetree
-cinst virtualbox
 cinst vagrant
 cinst packer
 cinst atom
 cinst cmder
 cinst boot2docker
 cinst diffmerge
-cinst fiddler
 cinst git.install
-cinst virtualbox
+
+
 
 ############
 # Multimedia
@@ -78,10 +86,26 @@ cinst wput
 cinst wincommandpaste
 
 ##########
-# Sysadmin
+# Ops
 cinst sysinternals
-# cinst ultravnc
-# cinst teamviewer
+cinst powershell
+cinst windowsazurepowershell
+cinst virtualbox
+
+cinst HeidiSQL
+
+cinst boxstarter
+cinst Boxstarter.Azure
+cinst boxstarter.bootstrapper
+cinst boxstarter.chocolatey
+cinst BoxStarter.Common
+cinst Boxstarter.HyperV
+cinst Boxstarter.TestRunner
+cinst BoxStarter.WinConfig
+cinst Boxstarter.WindowsUpdate
+
+cinst teamviewer --version 11.0.66695
+choco pin add -n=teamviewer --version 11.0.66695
 
 cinst nmap
 cinst wireshark
