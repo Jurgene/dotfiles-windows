@@ -11,7 +11,7 @@ Oneliner to launch my Boxstarter package
 Packages are being exported from my main computer as a backup and a reference to bring the Boxstarter package up to date from time to time.
 
 File | Contains | Command to generate the file
----- | -------- | ----------------------------
+:--: | :------: | ----------------------------
 `atom-packages.txt` | Atom packages | `apm list --installed --packages --bare > atom-packages.txt`
 `atom-themes.txt`  | Atom themes | `apm list --installed --themes --bare > atom-themes.txt`
 `choco-packages.txt`  | Chocolatey packages | `clist -lo -r > choco-packages.txt`
