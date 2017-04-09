@@ -4,6 +4,7 @@ Oneliner to launch my Boxstarter package
 
 `START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/hannesbe/dotfiles-windows/master/boxstarter.bootstrap.ps1`
 
+**Now sit back, relax & enjoy the ride! This would take hours at least to install manually.**
 
 # Packages export
 
