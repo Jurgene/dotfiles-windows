@@ -112,7 +112,7 @@ cinst mkdocs-material
 
 cinst vlc
 cinst mpc-hc
-cinst spotify
+cinst spotify --ignore-checksums
 cinst toastify
 cinst youtube-dl
 cinst flashplayerplugin
