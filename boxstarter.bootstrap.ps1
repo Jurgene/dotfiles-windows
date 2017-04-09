@@ -100,6 +100,8 @@ cinst winscp
 cinst putty
 cinst axel
 
+cinst ccleaner
+cinst ccenhancer
 
 ############
 # Multimedia
