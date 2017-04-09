@@ -103,6 +103,10 @@ cinst axel
 cinst ccleaner
 cinst ccenhancer
 
+cinst mkdocs
+cinst mkdocs-material
+
+
 ############
 # Multimedia
 
