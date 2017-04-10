@@ -87,7 +87,7 @@ cinst Boxstarter.TestRunner
 cinst BoxStarter.WinConfig
 cinst Boxstarter.WindowsUpdate
 
-cinst teamviewer --version 11.0.66695
+cinst teamviewer --version 11.0.66695 --ignore-checksums
 choco pin add -n=teamviewer --version 11.0.66695
 
 cinst rsat
