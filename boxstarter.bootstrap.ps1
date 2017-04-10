@@ -66,6 +66,7 @@ cinst boxstarter
 cinst wget
 cinst wput
 cinst wincommandpaste
+cinst inputdirector 
 
 ##########
 # Ops
